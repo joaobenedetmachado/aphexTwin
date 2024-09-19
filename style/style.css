@@ -111,3 +111,32 @@ footer img {
   margin-top: 30px;
   gap: 8px;
 }
+
+.discos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+}
+
+.discos img {
+  height: 200px;
+}
+
+.historicos {
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;
+}
+
+.historicos p {
+  margin-bottom: 60px;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
