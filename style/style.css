@@ -61,10 +61,6 @@ nav a:hover {
   flex-direction: column;
 }
 
-.main h3 {
-  padding-top: 40px;
-}
-
 #logoAphexBig {
   display: flex;
   gap: 20px;
@@ -105,4 +101,13 @@ footer p {
 
 footer img {
   height: 100%;
+}
+
+.areaLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  margin-top: 30px;
+  gap: 8px;
 }
