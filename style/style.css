@@ -14,6 +14,11 @@ body {
 
 }
 
+
+iframe {
+  max-width: 300px;
+}
+
 header {
   height: 150px;
   width: 100%;
@@ -119,6 +124,7 @@ footer img {
   flex-direction: row;
   gap: 20px;
   padding: 30px;
+  min-width: 200px;
 }
 
 .discos img {
@@ -140,4 +146,36 @@ footer img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.textArea p {
+  width: 450px;
+}
+
+.discos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+  width: 400px;
+}
+
+#logoHeader {
+  margin-right: 40px;
+
+}
+
+#logoHeader:hover {
+  animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
